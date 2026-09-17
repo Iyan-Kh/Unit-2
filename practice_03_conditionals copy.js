@@ -25,6 +25,7 @@ console.log(classifyNumber(-7)); // "negative odd"
 
 // ---------- Problem 2: Grade Calculator ----------
 // Return the letter grade for score (0-100):
+
 //   90+     -> "A"
 //   80-89   -> "B"
 //   70-79   -> "C"
