@@ -15,14 +15,17 @@
 //   "negative odd"    if num is negative and odd
 function classifyNumber(num) {
   // TODO: your code here
+ if (num === 0)
+  return "zero"
 }
+
 
 console.log(classifyNumber(0)); // "zero"
 console.log(classifyNumber(4)); // "positive even"
 console.log(classifyNumber(7)); // "positive odd"
 console.log(classifyNumber(-4)); // "negative even"
 console.log(classifyNumber(-7)); // "negative odd"
-
+}
 // ---------- Problem 2: Grade Calculator ----------
 // Return the letter grade for score (0-100):
 
